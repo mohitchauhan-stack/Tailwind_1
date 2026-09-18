@@ -1,5 +1,6 @@
 import "./App.css";
 import Container from "./components/container.jsx";
+import Hero from "./components/Hero.jsx";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="layout h-[100vh] bg-gradient-to-t from-blue-200 to-white">
       <Container>
         <Navbar />
+        <Hero />
       </Container>
     </div>
   );
