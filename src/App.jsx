@@ -1,4 +1,5 @@
 import "./App.css";
+import heroImg from "./assets/hero_img.png";
 import Container from "./components/container.jsx";
 import Hero from "./components/Hero.jsx";
 import Navbar from "./components/Navbar";
@@ -14,9 +15,9 @@ function App() {
         <div className="hero_image_container w-full relative flex justify-center pt-4">
           <div className="horizontal_line w-screen h-px opacity-30  top-0 absolute  bg-[#64748b]"></div>
           <img
-            src="./src/assets/hero_img.png"
+            src={heroImg}
             alt=""
-            className="w-4xl h-125 absolute rounded-md shadow-[0_7px_13px_5px_rgba(0,0,0,0.3)]"
+            className="w-6xl h-162.5 absolute rounded-md shadow-[0_7px_13px_5px_rgba(0,0,0,0.3)]"
           />
         </div>
       </Container>
