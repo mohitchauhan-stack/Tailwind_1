@@ -15,7 +15,7 @@ function App() {
       <div className="hero_image_container w-full relative flex justify-center pt-4">
         <div className="horizontal_line w-screen h-[1px] opacity-30  top-0 absolute  bg-[#64748b]"></div>
         <img
-          src="src/assets/hero_img.png"
+          src="./assets/hero_img.png"
           alt=""
           className="w-4xl absolute rounded-md shadow-[0_7px_13px_5px_rgba(0,0,0,0.3)]"
         />
