@@ -7,19 +7,19 @@ function App() {
   return (
     <div className="layout h-screen bg-linear-to-t from-blue-300/80 to-white">
       <Container>
-        <div className="left_line h-screen w-[1px] opacity-30  left-0 absolute  bg-[#64748b]"></div>
-        <div className="right_line h-screen w-[1px] opacity-30 right-0 absolute  bg-[#64748b]"></div>
+        <div className="left_line h-screen w-px opacity-30  left-0 absolute  bg-[#64748b]"></div>
+        <div className="right_line h-screen w-px opacity-30 right-0 absolute  bg-[#64748b]"></div>
         <Navbar />
         <Hero />
+        <div className="hero_image_container w-full relative flex justify-center pt-4">
+          <div className="horizontal_line w-screen h-px opacity-30  top-0 absolute  bg-[#64748b]"></div>
+          <img
+            src="./src/assets/hero_img.png"
+            alt=""
+            className="w-4xl h-125 absolute rounded-md shadow-[0_7px_13px_5px_rgba(0,0,0,0.3)]"
+          />
+        </div>
       </Container>
-      <div className="hero_image_container w-full relative flex justify-center pt-4">
-        <div className="horizontal_line w-screen h-[1px] opacity-30  top-0 absolute  bg-[#64748b]"></div>
-        <img
-          src="./assets/hero_img.png"
-          alt=""
-          className="w-4xl absolute rounded-md shadow-[0_7px_13px_5px_rgba(0,0,0,0.3)]"
-        />
-      </div>
     </div>
   );
 }
